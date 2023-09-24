@@ -91,10 +91,30 @@ namespace Lab2
                 Console.WriteLine("I cannot do this operation.");
             }
         }
+        static void Task3()
+        {
+        }
 
+        static void Task4()
+        {
+            //Створити клас User
+            User us1 = new User("DTEY", "OLeksandr", "Polovko", 17);
+            
+
+            //Реалізуйте виведення на екран інформації про користувача.
+            us1.Output();
+            
+        }
         static void Main(string[] args)
         {
-            Task2();
+            //Task1();
+            //Task2();
+            //Task3();
+            Task4();
+
+            // delay to read from screen
+            Console.WriteLine("Press any key to finnish this program...");
+            Console.Read();
         }
     }
 }
